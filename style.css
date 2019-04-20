@@ -1,0 +1,110 @@
+h3 {
+    margin-bottom: 10%;
+    font-size: 20px;
+    color: rgb(100, 97, 97);
+    text-align: left;
+    margin-left: 20%;
+}
+ul {
+    text-align: left;
+    font-size: 18px;
+    list-style: none;
+}
+.left {
+    display: block;
+    margin-left: 70%;
+    width: 20%;
+}
+.im1 {
+    display: flex;
+    align-items: center;
+}
+table {
+    font-size: 16px;
+    border-width: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+th {
+    column-span: all;
+    background-color: dimgrey;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+td {
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+td:first-child { 
+    font-weight: bold; 
+}
+p {
+    color: dimgray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    text-indent: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-weight: 510;
+}
+.interest {
+    padding-right: 10%;
+    padding-left: 15%;
+}
+.contact {
+    padding-right: 5%;
+    padding-left: 12%;
+}
+.flexcontainer {
+    display: flex;
+    align-items: left;
+}
+.center {
+    /* padding-right: 50%; */
+    padding-left: 33%;
+    /* position: center; */
+    width: 30%;
+    z-index: 1;
+}
+@media (max-width: 300px) {
+    .flexcontainer {
+    display: block;
+    margin-left: 15%;
+    }
+}
+.container:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    background-image: url('LakeImage.jpg');
+    background-repeat: no-repeat center center fixed;;
+    background-size: 155%;
+    /* background-size: cover; */
+    /* background-position: right; */
+    background-position-x: 40%;
+    background-position-y: 60%;
+    overflow: auto;
+    opacity: 0.2;
+}
+a:link {
+    color:rgb(31, 252, 31);
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: rgb(153, 152, 152);
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(39, 38, 39);
+    text-decoration: underline;
+}
