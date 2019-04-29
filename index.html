@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mass Shooting Project</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script>
+        $(document).ready(function () {
+            var pathname = location.href;
+            $(".nav").find(".active").removeClass("active");
+            $('.nav > li > a[href=#"' + pathname + '"]').parent().addClass('active');
+        })
+    </script>
+
+    <div class="background" id="home">
+        <div class="layer"></div>
+    </div>
+</head>
+
+</html>
+
+<body>
+
+    <div class="main">
+
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark" id="navbar">
+            <a class="navbar-brand" href="#">Mass Shooting Analysis</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
+                aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarColor02">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Analysis
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="Regional.html">Regional</a>
+                            <a class="dropdown-item" href="Incident.html">Incident</a>
+                            <!-- <div class="dropdown-divider"></div> -->
+                            <a class="dropdown-item" href="HateGroups.html">Hate Groups</a>
+                            <a class="dropdown-item" href="GunLaws.html">Gun Laws</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Comparisons.html">Comparisons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Data.html">Data</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col col-lg-6 col-12">
+                    <p class="why">
+                        Through the analysis of mass shooting data collected by the Southern Poverty Law Center, our
+                        team
+                        attempted to understand
+                        the basic questions of where these shootings occurred and if certain things imcreased the
+                        chances of
+                        one happening.
+                        Utlizing the Census and numerous organizations' efforts to track and establish a record of these
+                        instances, we
+                        looked for insight into the following questions:
+                    </p>
+                </div>
+
+                <div class=" col col-lg-6 col-12 order-md-1">
+                    <div class="why">
+                        <h2>Data</h2>
+                        <div>
+                            <ul>
+                                <li class="lk">Mass Shooting Statistics:<br /> <a target="_blank"
+                                        href="https://www.gunviolencearchive.org/reports">
+                                        https://www.gunviolencearchive.org/reports</a></li>
+                                <li class="lk">US Census API: <a target="_blank"
+                                        href="https://github.com/datamade/census">
+                                        https://github.com/datamade/census</a></li>
+                                <li class="lk">Hate Group Data: <a target="_blank"
+                                        href="https://www.splcenter.org/hate-map">
+                                        https://www.splcenter.org/hate-map</a>
+                                </li>
+                                <li class="lk">Gun Law Data: <a target="_blank"
+                                        href="https://lawcenter.giffords.org/scorecard/">
+                                        https://lawcenter.giffords.org/scorecard/</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-100"></div>
+
+                <div class="col col-lg-6 col-12 order-md-0">
+                    <ul class="questions">
+                        <li>Have <code class="ms">mass shooting</code> rates increased over the years?</li>
+                        <li>Where are <code class="ms">mass shootings</code> happening most often and where are they
+                            the deadliest?</li>
+                        <li>Does gun legislation have any relationship to number of <code
+                                class="ms">mass shootings?</code>
+                        </li>
+                        <li>Does hate group activity have any relationship with number of <code
+                                class="ms">mass shootings?</code></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container2">
+                <div class="orglnks2">
+                    <div class="row">
+                        <div class="col-sm-4 col-4">
+                            <!-- <a class="orglink1" target="_blank" href="https://giffords.org/"> <img src="docs/GOG.jpg"
+                                    alt="Giffords.org" class="imlnk" /></a> -->
+                            <div class="container3">
+                                <img src="docs/GOG.jpg" alt="Avatar" class="image">
+                                <div class="overlay">
+                                    <div class="im">
+                                        <a target="_blank" href="https://giffords.org/">
+                                            <img src="docs/GO.jpg" alt="Avatar" class="image2"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-4">
+                            <!-- <a class="orglink2" target="_blank" href="https://everytown.org/"> <img src="docs/ETG.jpg"
+                                    alt="Everytown.org" class="imlnk" /></a> -->
+                            <div class="container3">
+                                <img src="docs/ETG.jpg" alt="Avatar" class="image">
+                                <div class="overlay">
+                                    <div class="im">
+                                        <a target="_blank" href="https://everytown.org/">
+                                            <img src="docs/ET.jpg" alt="Avatar" class="image2"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-4">
+                            <!-- <a class="orglink3" target="_blank" href="http://vpc.org/"> <img src="docs/VPCG.jpg"
+                                    alt="VPC.org" class="imlnk1" /></a> -->
+                            <div class="container3">
+                                <img src="docs/VPCG.jpg" alt="Avatar" class="image">
+                                <div class="overlay">
+                                    <div class="im">
+                                        <a target="_blank" href="http://vpc.org/">
+                                            <img src="docs/VPC.jpg" alt="Avatar" class="image2"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-100"></div>
+        <div class="w-100"></div>
+
+        <div class="row" id="about">
+            <div class="col col-lg-12">
+                <div class="About">
+                    <ul>
+                        <li>
+                            <h4>Mass Shooting Definition: </h4>4+ victims injured or killed excluding the
+                            subject/suspect/perpetrator, one location. (Gun Violence Archive)
+                        </li><br>
+                        <li>
+                            <h4>Hate Group Definition: </h4>An organization that – based on its official statements or
+                            principles, the statements of its leaders, or its
+                            activities – has beliefs or practices that attack or malign an entire class of people,
+                            typically
+                            for their immutable
+                            characteristics. (Southern Poverty Law Center)
+                        </li><br>
+                        <li>
+                            <h4>Region Definitions: </h4>
+                            <ul class="defList">
+                                <li>Urban - Region with a density greater than 3000 ppl / sq mi</li>
+                                <li>Suburban - Region with a density greater than 1000 ppl / sq mi but less than 3000
+                                    ppl /
+                                    sq mi</li>
+                                <li>Rural - Region with a density less than 1000 ppl / sq mi</li><br>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4>State Gun Laws: </h4>Attorneys track and analyze gun legislation in all 50 states,
+                            evaluating bills for their relative strength or
+                            weakness. Taking note of newly enacted laws, they use an exhaustive quantitative rubric to
+                            score
+                            each state
+                            on its gun law strength, adding points for safety regulations like universal background
+                            checks
+                            and extreme risk
+                            protection orders and subtracting points for reckless policies like “Stand Your Ground” and
+                            permitless carry
+                            laws. (Giffords Law Center)
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
