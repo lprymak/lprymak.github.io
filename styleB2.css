@@ -155,6 +155,18 @@ ul {
 th, td {
     color: gray !important;
 }
+a:link {
+    color:rgb(44, 44, 44);
+    text-decoration: none;
+}
+a:visited {
+    color:rgb(44, 44, 44);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(247, 92, 20);
+    text-decoration: underline;
+}
 @media (max-width: 992px) {
     .navbar-nav {
         margin-right: 0 !important;
