@@ -174,7 +174,12 @@ ul {
     padding-bottom: 3%;
     /* margin-top: 5%; */
 }
+
 @media (max-width: 992px) {
+    .main {
+        height: 3100px;
+        margin-top: 8%;
+    }
     .navbar-nav {
         margin-right: 0 !important;
         float: left;

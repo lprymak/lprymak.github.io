@@ -147,6 +147,7 @@ ul {
 }
 .container {
     background-color: white;
+    margin-left: 5%;
 }
 .rmargin {
     display: block;
@@ -167,28 +168,59 @@ a:hover {
     color: rgb(247, 92, 20);
     text-decoration: underline;
 }
+.container5 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    vertical-align: middle;
+}
+.im {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.imTall {
+    position: absolute;
+    height: 100%;
+    left: 50%;
+  transform: translateX(-50%);
+}
+.container6 {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    vertical-align: middle;
+}
 @media (max-width: 992px) {
+    
     .navbar-nav {
         margin-right: 0 !important;
-        float: right;
-        /* margin-left: 65% !important; */
+        float: left;
+        margin-left: 0% !important;
     }
-
+    body {
+        font-size: 2rem;
+    }
+    h4 {
+        font-size: 2.5rem;
+    }
     .navbar {
-        padding: 1rem, 1rem;
+        padding: .5rem 1rem;
     }
     .navbar-brand {
-        font-size: 2rem;
+        font-size: 3rem;
     }
     .navbar-toggler-icon {
-        width: 3rem;
-        height: 3rem;
+        width: 5rem;
+        height: 5rem;
     }
     .nav-link {
-        font-size: 2rem;
+        font-size: 3rem;
+        text-align: left;
     }
     .dropdown-item {
-        font-size: 2rem;
+        font-size: 3rem;
         color: white;
         background-color: rgb(247, 92, 20);
         font-weight: 400;
@@ -196,8 +228,6 @@ a:hover {
     .dropdown-menu {
         padding: 0rem;
     }
-    
-
     .imlnk {
         width: 80%;
         margin-top: 35%;
@@ -295,6 +325,12 @@ a:hover {
     .col-lg-6 {
         margin-right: 15%;
     }
+    .container5 {
+        position: relative;
+        width: 350px;
+        height: 300px;
+        vertical-align: middle;
+    }
 }
 @media (min-width: 1201px) {
     .navbar-nav {
@@ -305,8 +341,9 @@ a:hover {
     .container {
         max-width: 2800px;
         /* background-color: gray; */
-        margin-left: 5%;
-        margin-right: 2%;
+        margin-left: 10%;
+        margin-right: auto;
+        /* margin:0 auto */
     }
     .txtblk {
         /* font-size: 20px; */
