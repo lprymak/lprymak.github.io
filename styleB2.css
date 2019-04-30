@@ -190,6 +190,8 @@ a:hover {
     position: relative;
     width: 50%;
     height: 50%;
+    margin-top: 8%;
+    margin-left: 25%;
     vertical-align: middle;
 }
 @media (max-width: 992px) {
@@ -276,6 +278,7 @@ a:hover {
     .txtblk {
         margin-top: 10%;
         /* font-size: 28px; */
+        font-size: 2rem;
         max-width: 100%;
         margin-left: 5%;
         margin-right: 5%;
@@ -283,6 +286,7 @@ a:hover {
     .txtblk2 {
         margin-top: 5%;
         /* font-size: 28px; */
+        font-size: 2rem;
         margin-left: 5%;
         max-width: 100%;
         margin-right: 5%;
@@ -290,6 +294,7 @@ a:hover {
     .txtblk3 {
         margin-top: 10%;
         /* font-size: 22px; */
+        font-size: 2rem;
         margin-left: 0%;
         margin-bottom: 40%;
         margin-right: 5%;
@@ -331,6 +336,13 @@ a:hover {
         height: 300px;
         vertical-align: middle;
     }
+    .container6 {
+        position: relative;
+        width: 150%;
+        /* height: 50%; */
+        margin-top: -5%;
+        vertical-align: middle;
+    }
 }
 @media (min-width: 1201px) {
     .navbar-nav {
@@ -341,7 +353,7 @@ a:hover {
     .container {
         max-width: 2800px;
         /* background-color: gray; */
-        margin-left: 10%;
+        margin-left: 0%;
         margin-right: auto;
         /* margin:0 auto */
     }
@@ -398,6 +410,7 @@ a:hover {
         /* margin-right: 5%; */
         width: 100%;
     }
+    
 }
 .lbl {
     font-weight: bolder !important; 

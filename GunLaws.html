@@ -47,7 +47,6 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="Regional.html">Regional</a>
                             <a class="dropdown-item" href="Incident.html">Incident</a>
-                            <!-- <div class="dropdown-divider"></div> -->
                             <a class="dropdown-item" href="HateGroups.html">Hate Groups</a>
                             <a class="dropdown-item" href="#">Gun Laws</a>
                         </div>
@@ -62,86 +61,402 @@
             </div>
         </nav>
 
-        <!-- <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" id="navbar">
-            <a class="navbar-brand" href="#">Mass Shooting Analysis</a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
-                aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarColor02">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Regional.html">Regional</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Incident.html">Incident</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="HateGroups.html">Hate Groups</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Gun Laws</a>
-                    </li>
-                </ul>
-            </div>
-        </nav> -->
-
         <div class="container">
             <div class="row">
-                <div class="col col-lg-4 col-6">
-                    <img src="docs/Count Mass Shootings by State.png" alt="Shooting Incident Size" class="hm" />
-                </div>
-                <div class="col col-6">
-                    <div class="col col-12">
-                        <img src="docs/mass_law_all.png" alt="Shooting Incident Size" class="hm" />
-                    </div>
+                <div class="col col-12">
+                    <div class="row">
+                        <div class="col col-lg-6 col-12">
+                            <img src="docs/mass_law_all.png" alt="Shooting Incident Size" width="100%" class="im2"/>
+                        </div>
+                        <div class="col col-lg-6 col-8">
+                            <p class="txtblk">
+                                Gun law grades per state were determined by considering the strength of gun laws and
+                                access.
+                                THe state gun law grades did not seem to have an effect of masas shootings considering
+                                the
+                                A- and the F grades seemed to have the most incidents.
+                            </p>
+                        </div>
+
+                    <!-- </div> -->
+
                     <div class="w-100"></div>
                     <br>
-                    <div class="col col-12">
-                        <p class="txtblk">
-                            Hate groups alblkdzhl vzfd;u vzh;zv ;df i;f ;djhzbh;o fidzh gl uxfhx kx lhudvhvdf kvldkf
-                            hvzd, vzkdh gv,k rdglu lhd, kfbvk uldh bzk ,h luxh bjk hxdk. bhxbh bxfjk hxgkxbhk uxbxk jhbl
-                            uh k xdhg lughdlugh g hbx k,bxk, hk,uhkfdx,hx k,vf xkhv,ku xdh x hkhuvdh ilxdvh vxu hdvxiu
-                            hvx lvhlvuh dfxhivf
-                        </p>
+
+                    <div class="row">
+                        <div class="col col-lg-6 col-12">
+                            <img src="docs/mass_law_all_ranked.png" alt="State Gun Law Rankings Vs Incidents"
+                                width="120%" class="im2"/>
+                        </div>
                     </div>
 
-                </div>
-                <div class="w-100"></div>
+                    <div class="w-100"></div>
+                    <br>
 
-                <div class="col col-12">
-                    <img src="docs/mass_law_all_ranked.png" alt="Shooting Incident Size" class="half" />
-                </div>
+                    
 
-                <div class="w-100"></div>
-                <br>
-                <br>
-
-                <div class="col col-6">
-                    <img src="docs/plt_regression_grade_number.png" alt="Shooting Incident Size" class="hm" />
                 </div>
-                <div class="col col-6">
-                    <img src="docs/results_Regression_grade_number.PNG" alt="Shooting Incident Size" />
-                </div>
-                <div class="w-100"></div>
-                <br>
-
-                <div class="col col-6">
-                    <img src="docs/plt_regression_poverty.png" alt="Shooting Incident Size" class="hm" />
-                </div>
-                <div class="col col-6">
-                    <img src="docs/results_Regression_poverty.PNG" alt="Shooting Incident Size" />
-                </div>
-
             </div>
         </div>
+
+        <table class="table table-bordered table-hover table-condensed">
+                <thead><tr><th title="Field #1">GUN LAW STRENGTH (RANKED)</th>
+                <th title="Field #3">2017 GRADE</th>
+                <th title="Field #4">2016 GRADE</th>
+                <th title="Field #5">2015 GRADE</th>
+                <th title="Field #6">2014 GRADE</th>
+                </tr></thead>
+                <tbody><tr>
+                <td>California</td>
+                <td>A</td>
+                <td>A</td>
+                <td>A-</td>
+                <td>A-</td>
+                </tr>
+                <tr>
+                <td>New Jersey</td>
+                <td>A-</td>
+                <td>A-</td>
+                <td>A-</td>
+                <td>A-</td>
+                </tr>
+                <tr>
+                <td>Connecticut</td>
+                <td>A-</td>
+                <td>A-</td>
+                <td>A-</td>
+                <td>A-</td>
+                </tr>
+                <tr>
+                <td>Massachusetts</td>
+                <td>A-</td>
+                <td>A-</td>
+                <td>A-</td>
+                <td>A-</td>
+                </tr>
+                <tr>
+                <td>New York</td>
+                <td>A-</td>
+                <td>A-</td>
+                <td>A-</td>
+                <td>A-</td>
+                </tr>
+                <tr>
+                <td>Maryland</td>
+                <td>A-</td>
+                <td>A-</td>
+                <td>A-</td>
+                <td>A-</td>
+                </tr>
+                <tr>
+                <td>Hawaii</td>
+                <td>A-</td>
+                <td>A-</td>
+                <td>B+</td>
+                <td>B+</td>
+                </tr>
+                <tr>
+                <td>Illinois</td>
+                <td>B+</td>
+                <td>B+</td>
+                <td>B+</td>
+                <td>B+</td>
+                </tr>
+                <tr>
+                <td>Rhode Island</td>
+                <td>B+</td>
+                <td>B+</td>
+                <td>B+</td>
+                <td>B+</td>
+                </tr>
+                <tr>
+                <td>Washington</td>
+                <td>B</td>
+                <td>B</td>
+                <td>B-</td>
+                <td>B-</td>
+                </tr>
+                <tr>
+                <td>Delaware</td>
+                <td>B</td>
+                <td>B</td>
+                <td>B</td>
+                <td>B-</td>
+                </tr>
+                <tr>
+                <td>Minnesota</td>
+                <td>C+</td>
+                <td>C+</td>
+                <td>C</td>
+                <td>C</td>
+                </tr>
+                <tr>
+                <td>Pennsylvania</td>
+                <td>C</td>
+                <td>C</td>
+                <td>C</td>
+                <td>C</td>
+                </tr>
+                <tr>
+                <td>Oregon</td>
+                <td>C</td>
+                <td>C</td>
+                <td>C</td>
+                <td>D+</td>
+                </tr>
+                <tr>
+                <td>Colorado</td>
+                <td>C</td>
+                <td>C</td>
+                <td>C-</td>
+                <td>C-</td>
+                </tr>
+                <tr>
+                <td>Michigan</td>
+                <td>C</td>
+                <td>C</td>
+                <td>C</td>
+                <td>C</td>
+                </tr>
+                <tr>
+                <td>Wisconsin</td>
+                <td>C-</td>
+                <td>C-</td>
+                <td>D</td>
+                <td>C-</td>
+                </tr>
+                <tr>
+                <td>Iowa</td>
+                <td>C-</td>
+                <td>C</td>
+                <td>C-</td>
+                <td>C-</td>
+                </tr>
+                <tr>
+                <td>Nebraska</td>
+                <td>D</td>
+                <td>D</td>
+                <td>D</td>
+                <td>D</td>
+                </tr>
+                <tr>
+                <td>Virginia</td>
+                <td>D</td>
+                <td>D</td>
+                <td>D</td>
+                <td>D</td>
+                </tr>
+                <tr>
+                <td>Ohio</td>
+                <td>D</td>
+                <td>D</td>
+                <td>D</td>
+                <td>D</td>
+                </tr>
+                <tr>
+               <td>Nevada</td>
+                <td>D</td>
+                <td>C-</td>
+                <td>F</td>
+                <td>F</td>
+                </tr>
+                <tr>
+                <td>Indiana</td>
+                <td>D-</td>
+                <td>D-</td>
+                <td>D-</td>
+                <td>D-</td>
+                </tr>
+                <tr>
+                <td>Tennessee</td>
+                <td>D-</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                </tr>
+                <tr>
+               <td>North Carolina</td>
+                <td>D-</td>
+                <td>D-</td>
+                <td>F</td>
+                <td>F</td>
+                </tr>
+                <tr>
+                <td>Florida</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                </tr>
+                <tr>
+                <td>Oklahoma</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                </tr>
+                <tr>
+                <td>Utah</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                </tr>
+                <tr>
+                <td>New Mexico</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                </tr>
+                <tr>
+                <td>South Carolina</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                </tr>
+                <tr>
+                <td>New Hampshire</td>
+                <td>F</td>
+                <td>D</td>
+                <td>D</td>
+                <td>D-</td>
+                </tr>
+                <tr>
+                <td>Georgia</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                </tr>
+                <tr>
+                <td>Texas</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                </tr>
+                <tr>
+                <td>West Virginia</td>
+                <td>F</td>
+                <td>F</td>
+                <td>D-</td>
+                <td>F</td>
+                </tr>
+                <tr>
+                <td>Maine</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                </tr>
+                <tr>
+                <td>Alabama</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                </tr>
+                <tr>
+                <td>Montana</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                </tr>
+                <tr>
+                <td>North Dakota</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                </tr>
+                <tr>
+                <td>Arkansas</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                </tr>
+                <tr>
+                <td>South Dakota</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                </tr>
+                <tr>
+                <td>Vermont</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                </tr>
+                <tr>
+                <td>Kentucky</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                </tr>
+                <tr>
+                <td>Louisiana</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                </tr>
+                <tr>
+                <td>Alaska</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                </tr>
+                <tr>
+                <td>Wyoming</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                </tr>
+                <tr>
+                <td>Idaho</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                </tr>
+                <tr>
+                <td>Arizona</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                </tr>
+                <tr>
+                <td>Kansas</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                </tr>
+                <tr>
+               <td>Missouri</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                </tr>
+                <tr>
+                <td>Mississippi</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                <td>F</td>
+                </tr>
+                </tbody></table>
+
     </div>
 </body>

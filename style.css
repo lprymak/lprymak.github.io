@@ -214,32 +214,32 @@ ul {
     .dropdown-menu {
         padding: 0rem;
     }
-        .imlnk {
-            width: 80%;
-            margin-top: 35%;
-        }
-        .imlnk1 {
-            width: 100%;
-            margin-top: 30%;
-        }
-        .container2 {
-            width: 75%;
-            position: center center;
-            margin-top: 3%;
-            margin-left: 15%;
-        }
-        .col-12 {
-            max-width: 100%;
-            padding: 0%;
-        }
-        .row {
-            max-width: 100%;
-        }
-        .container3 {
-            margin-top: 35%;
-            margin-bottom: 15%;
-        }
+    .imlnk {
+        width: 80%;
+        margin-top: 35%;
     }
+    .imlnk1 {
+        width: 100%;
+        margin-top: 30%;
+    }
+    .container2 {
+        width: 75%;
+        position: center center;
+        margin-top: 3%;
+        margin-left: 15%;
+    }
+    .col-12 {
+        max-width: 100%;
+        padding: 0%;
+    }
+    .row {
+        max-width: 100%;
+    }
+    .container3 {
+        margin-top: 35%;
+        margin-bottom: 15%;
+    }
+}
 @media (min-width: 1205px) {
     .navbar-nav {
         margin-right: 0 !important;
@@ -262,7 +262,6 @@ ul {
     .container3 {
         margin-top: 5%;
     }
-
 }
 
 .container3 {
