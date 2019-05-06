@@ -90,6 +90,26 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
 .imTC {
     height: 100%;
 }
+.containerComp {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    vertical-align: middle;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.sIm {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.sImT {
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
 /* Small screens */
 @media (max-width: 992px) {
@@ -156,6 +176,10 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
         margin-left: 30%;
         margin-top: 10%;
         margin-bottom: 15%;
+    }
+    .containerComp {
+        width: 600px;
+        height: 600px;
     }
 }
 
