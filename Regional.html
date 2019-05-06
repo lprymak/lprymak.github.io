@@ -15,10 +15,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="styleB2.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
-</html>
 
 <body>
 
@@ -32,7 +30,7 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarColor02">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
@@ -61,86 +59,106 @@
             </div>
         </nav>
 
-        <div class="heatmaps">
-            <div class="container.fluid">
+        <div class="content">
+
+            <div class="container.fluid mx-5 mt-5">
                 <div class="row">
-
                     <div class="col col-lg-6 col-12">
-                        <img src="docs/TotalIncidentsHeatMap.png" alt="Shooting Incident Heat Map" class="hm" />
-                        <div class="lbl">Total Incidents</div>
+                        <div class="container lgIm">
+                            <div class="card border-0">
+                                <img src="docs/TotalIncidentsHeatMap.png" alt="Shooting Incident Heat Map"
+                                    class="card-img-top" />
+                                <div class="card-body">
+                                    <h6>Total Incidents</h6>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="col col-lg-6 col-12">
-                        <img src="docs/FatalitiesPerCapitaHeatMap.png" alt="Fatality Heat Map" class="hm" />
-                        <div class="lbl">Fatalities Per Capita</div>
+                        <div class="container lgIm">
+                            <div class="card border-0">
+                                <img src="docs/FatalitiesPerCapitaHeatMap.png" alt="Fatality Heat Map"
+                                    class="card-img-top"/>
+                            <div class=" card-body">
+                                <h6>Fatalities Per Capita</h6>
+                            </div>
+                        </div>
                     </div>
+                </div>
 
-                    <div class="w-100"></div>
+                <div class="w-100"></div>
 
-                    <div class="col col-lg-6 col-12">
-                        <p class="txtblk"><br>
-                            Although total incident count per county and victim count per capita were highest in urban
-                            settings,
-                            fatalities per capita were highest in rural settings (this may be beacuse of distance
-                            to emergency response or healthcare facility). As density decreased, the fatality rate
-                            increased.
-                        </p>
-                    </div>
+                <div class="col col-lg-6 col-12">
+                    <p class="txtblk"><br>
+                        Although total incident count per county and victim count per capita were highest in urban
+                        settings,
+                        fatalities per capita were highest in rural settings (this may be beacuse of distance
+                        to emergency response or healthcare facility). As density decreased, the fatality rate
+                        increased.
+                    </p>
+                </div>
 
-                    <div class="w-100"></div>
+            </div>
 
-                    <div class="row">
-
-                        <div class="col col-lg-4 col-12">
+            <div class="container.fluid mt-3">
+                <div class="row">
+                    <div class="col col-lg-4 col-12">
+                        <div class="container.fluid mx-auto">
                             <img src="docs/PercentTotalIncidentsPerDensityCounty.png" alt="Shooting Incidents Pie"
-                                class="im3" />
+                                class="pieCharts mx-auto" />
                         </div>
+                    </div>
 
-                        <div class="col col-lg-4 col-12">
+                    <div class="col col-lg-4 col-12">
+                        <div class="container.fluid mx-auto">
                             <img src="docs/PercentTotalVictimsPerDensityCounty.png" alt="Shooting Victims Pie"
-                                class="im3" />
+                                class="pieCharts mx-auto" />
                         </div>
+                    </div>
 
-                        <div class="col col-lg-4 col-12">
+                    <div class="col col-lg-4 col-12">
+                        <div class="container.fluid mx-auto">
                             <img src="docs/PercentTotalFatalitiesPerDensityCounty.png" alt="Shooting Fatalities Pie"
-                                class="im3" />
-                        </div>
-
-                    </div>
-
-                    <div class="w-100"></div>
-
-                    <div class="row">
-
-                        <div class="col col-lg-4 col-12 order-md-1">
-                            <p class="txtblk2"><br>
-                                As the weather warms and the seasons change, there is an increase in mass shooting
-                                incident counts, peaking in the summer months. 2016 had the highest concentration of
-                                mass shootings.
-                            </p>
-                        </div>
-
-                        <div class="col col-lg-8 col-12">
-                            <img src="docs/IncidentsOverYear.png" alt="Shooting Incidents Over Time" class="im2" />
-                        </div>
-                    </div>
-
-                    <div class="w-100"></div>
-
-                    <div class="row">
-
-                        <div class="col">
-                            <img src="docs/TotalIncidentsByRegion.png" alt="Shooting Incidents Per Region"
-                                class="half" />
-                        </div>
-
-                        <div class="col">
-                            <img src="docs/FatalityRateByRegion.png" alt="Shooting Fatalities Per Region"
-                                class="half" />
+                                class="pieCharts mx-auto" />
                         </div>
                     </div>
                 </div>
             </div>
+
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col col-lg-4 col-12 order-lg-1 order-0">
+                        <p><br>
+                            As the weather warms and the seasons change, there is an increase in mass shooting
+                            incident counts, peaking in the summer months. 2016 had the highest concentration of
+                            mass shootings.
+                        </p>
+                    </div>
+
+                    <div class="col col-lg-8 col-12 order-lg-0 order-1">
+                        <img src="docs/IncidentsOverYear.png" alt="Shooting Incidents Over Time"
+                            class="halfImage mx-auto" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col col-lg-6 col-12">
+                        <img src="docs/TotalIncidentsByRegion.png" alt="Shooting Incidents Per Region" class="half" />
+                    </div>
+
+                    <div class="col col-lg-6 col-12">
+                        <img src="docs/FatalityRateByRegion.png" alt="Shooting Fatalities Per Region" class="half" />
+                    </div>
+                </div>
+            </div>
+
+
+
         </div>
     </div>
 </body>
+
+</html>

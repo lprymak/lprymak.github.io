@@ -24,15 +24,14 @@
             $('.nav > li > a[href=#"' + pathname + '"]').parent().addClass('active');
         })
     </script>
-
-    <div class="background" id="home">
-        <div class="layer"></div>
-    </div>
 </head>
 
-</html>
-
 <body>
+    <div class="container-fluid mt-2">
+        <div class="jumbotron text-center"
+            style="background: url('docs/back4.jpg') no-repeat center center; width: 100%; height: 200px;">
+        </div>
+    </div>
 
     <div class="main">
 
@@ -44,7 +43,7 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarColor02">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
@@ -73,25 +72,30 @@
             </div>
         </nav>
 
-
-        <div class="container">
-            <div class="row">
+        <div class="container.fluid mx-5 mt-4">
+            <div class="row mt-md-3">
                 <div class="col col-lg-6 col-12">
-                    <p class="why">
-                        Through the analysis of mass shooting data collected by the Southern Poverty Law Center, our
-                        team
-                        attempted to understand
-                        the basic questions of where these shootings occurred and if certain things imcreased the
-                        chances of
-                        one happening.
-                        Utlizing the Census and numerous organizations' efforts to track and establish a record of these
-                        instances, we
-                        looked for insight into the following questions:
-                    </p>
+                    <div class="container why mt-lg-1">
+
+                        <p>
+                            Through the analysis of mass shooting data collected by the Southern Poverty Law Center, our
+                            team
+                            attempted to understand
+                            the basic questions of where these shootings occurred and if certain things imcreased the
+                            chances of
+                            one happening.
+                            Utlizing the Census and numerous organizations' efforts to track and establish a record of
+                            these
+                            instances, we
+                            looked for insight into the following questions:
+                        </p>
+                    </div>
                 </div>
 
-                <div class=" col col-lg-6 col-12 order-md-1">
-                    <div class="why">
+                <div class="col col-lg-6 col-12 order-lg-0 order-1">
+                    <div class="container lnks">
+
+                        <!-- <div class="why"> -->
                         <h2>Data</h2>
                         <div>
                             <ul>
@@ -113,60 +117,56 @@
                     </div>
                 </div>
 
-                <div class="w-100"></div>
+                <div class="col col-lg-6 col-12 order-lg-1 order-0">
+                    <div class="container questions">
 
-                <div class="col col-lg-6 col-12 order-md-0">
-                    <ul class="questions">
-                        <li>Have <code class="ms">mass shooting</code> rates increased over the years?</li>
-                        <li>Where are <code class="ms">mass shootings</code> happening most often and where are they
-                            the deadliest?</li>
-                        <li>Does gun legislation have any relationship to number of <code
-                                class="ms">mass shootings?</code>
-                        </li>
-                        <li>Does hate group activity have any relationship with number of <code
-                                class="ms">mass shootings?</code></li>
-                    </ul>
+                        <ul>
+                            <li>Have <code class="ms">mass shooting</code> rates increased over the years?</li>
+                            <li>Where are <code class="ms">mass shootings</code> happening most often and where are they
+                                the deadliest?</li>
+                            <li>Does gun legislation have any relationship to number of <code
+                                    class="ms">mass shootings?</code>
+                            </li>
+                            <li>Does hate group activity have any relationship with number of <code
+                                    class="ms">mass shootings?</code></li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
 
-            <div class="container2">
-                <div class="orglnks2">
-                    <div class="row">
-                        <div class="col-sm-4 col-4">
-                            <!-- <a class="orglink1" target="_blank" href="https://giffords.org/"> <img src="docs/GOG.jpg"
-                                    alt="Giffords.org" class="imlnk" /></a> -->
-                            <div class="container3">
-                                <img src="docs/GOG.jpg" alt="Avatar" class="image">
-                                <div class="overlay">
-                                    <div class="im">
-                                        <a target="_blank" href="https://giffords.org/">
-                                            <img src="docs/GO.jpg" alt="Avatar" class="image2"></a>
+                <div class="col col-lg-6 col-12 order-lg-2 order-2">
+
+                    <div class="container mt-md-5">
+                        <div class="row">
+                            <div class="col col-sm-4 col-4">
+                                <div class="container orglnks ">
+                                    <img src="docs/GOG.jpg" alt="Avatar" class="im_lnk_ov">
+                                    <div class="overlay">
+                                        <div class="im">
+                                            <a target="_blank" href="https://giffords.org/">
+                                                <img src="docs/GO.jpg" alt="Avatar" class="im_lnk"></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-sm-4 col-4">
-                            <!-- <a class="orglink2" target="_blank" href="https://everytown.org/"> <img src="docs/ETG.jpg"
-                                    alt="Everytown.org" class="imlnk" /></a> -->
-                            <div class="container3">
-                                <img src="docs/ETG.jpg" alt="Avatar" class="image">
-                                <div class="overlay">
-                                    <div class="im">
-                                        <a target="_blank" href="https://everytown.org/">
-                                            <img src="docs/ET.jpg" alt="Avatar" class="image2"></a>
+                            <div class="col col-sm-4 col-4">
+                                <div class="container orglnks">
+                                    <img src="docs/ETG.jpg" alt="Avatar" class="im_lnk_ov">
+                                    <div class="overlay">
+                                        <div class="im">
+                                            <a target="_blank" href="https://everytown.org/">
+                                                <img src="docs/ET.jpg" alt="Avatar" class="im_lnk"></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-sm-4 col-4">
-                            <!-- <a class="orglink3" target="_blank" href="http://vpc.org/"> <img src="docs/VPCG.jpg"
-                                    alt="VPC.org" class="imlnk1" /></a> -->
-                            <div class="container3">
-                                <img src="docs/VPCG.jpg" alt="Avatar" class="image">
-                                <div class="overlay">
-                                    <div class="im">
-                                        <a target="_blank" href="http://vpc.org/">
-                                            <img src="docs/VPC.jpg" alt="Avatar" class="image2"></a>
+                            <div class="col col-sm-4 col-4">
+                                <div class="container orglnks">
+                                    <img src="docs/VPCG.jpg" alt="Avatar" class="im_lnk_ov">
+                                    <div class="overlay">
+                                        <div class="im">
+                                            <a target="_blank" href="http://vpc.org/">
+                                                <img src="docs/VPC.jpg" alt="Avatar" class="im_lnk"></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -176,12 +176,9 @@
             </div>
         </div>
 
-        <div class="w-100"></div>
-        <div class="w-100"></div>
-
         <div class="row" id="about">
-            <div class="col col-lg-12">
-                <div class="About">
+            <div class="col col-12 px-4 mt-5">
+                <div class="About mt-3 py-5">
                     <ul>
                         <li>
                             <h4>Mass Shooting Definition: </h4>4+ victims injured or killed excluding the
@@ -223,4 +220,7 @@
             </div>
         </div>
     </div>
+
 </body>
+
+</html>

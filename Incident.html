@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Mass Shooting Project: Regional Analysis</title>
+    <title>Mass Shooting Project: Incident Analysis</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -15,29 +15,32 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="styleB2.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-</html>
-
 <body>
+
     <div class="main">
 
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" id="navbar">
-            <a class="navbar-brand" href="HW_IndexC.html">Mass Shooting Analysis</a>
+
+            <a class="navbar-brand" href="index.html">Mass Shooting Analysis</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
                 aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarColor02">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav ml-auto">
+
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="index.html#about">About</a>
                     </li>
+
                     <li class="nav-item dropdown active">
                         <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -50,103 +53,151 @@
                             <a class="dropdown-item" href="GunLaws.html">Gun Laws</a>
                         </div>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="Comparisons.html">Comparisons</a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="Data.html">Data</a>
                     </li>
+
                 </ul>
             </div>
         </nav>
 
-        <div class="container.fluid">
-            <div class="row">
-                <div class="col col-sm-6">
-                    <img src="docs/FatalityPCType2.png" alt="Incident Victim Count" class="hm" />
-                </div>
-                <div class="col col-sm-6">
-                    <img src="docs/GrowthOfIncidentSizes.png" alt="Incidents OVer Time" class="hm" />
-                </div>
-                <div class="w-100"></div>
-                <div class="col col-lg-6 col-12">
-                    <p class="txtblk2">
-                        Since the majority of shooting incidents have less than 10 victims per incident, the total
-                        shootings were grouped into small and large victim counts. There also were many areas
-                        that had multiple occurences of mass shootings per county. The focus on the
-                        amount of occureneces were split into single incident and multi-incident categories for further
-                        investigation.
-                    </p>
-                </div>
+        <div class="content">
 
-                <div class="w-100"></div>
-
-                <div class="col col-sm-6">
-                    <img src="docs/IncidetnLocationTotal.png" alt="Total Victim Groupings " class="im4" />
-                </div>
-                <div class="col col-sm-6">
-                    <img src="docs/IncidetnLocationVictims.png" alt="Inicident Sizes Over Time" class="im4" />
-                </div>
-
-                <div class="w-100"></div>
-                <br>
-                <br>
-
+            <div class="container.fluid mx-5 mt-4">
                 <div class="row">
 
-                    <div class="col col-lg-4 col-6">
-                        <img src="docs/SmallIncidents.png" alt="Single Incident Fatality Rate" class="im2" />
+                    <div class="col col-lg-6 col-12">
+                        <div class="card border-0">
+                            <div class="container mx-auto">
+                                <img src="docs/FatalityPCType2.png" alt="Incident Victim Count" class="imW mx-auto" />
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="col col-6 align-self-start">
-                        <p class="txtblk3">
-                            The counties where incidents are recurring have lower fatality rates for higher incident
-                            counts. There are some counties that have had more than 20 mass shootings, and two where
-                            there are
-                            more than 40. The majority recurrences are in areas that have had less than 10 incidents per
-                            county. For the single incident occurences, the areas with higher victim counts have less
-                            than a 40%
-                            fatality rate. The counties with the higher fatality rates tend to be rural or suburban.
+                    <div class="col col-lg-6 col-12 order-lg-0 order-1">
+                        <div class="card border-0">
+                            <div class="container">
+                                <img src="docs/GrowthOfIncidentSizes.png" alt="Incidents OVer Time"
+                                    class="imW mx-auto" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w-100"></div>
+
+                    <div class="col col-lg-6 col-12 order-lg-1 order-0 mt-5">
+                        <p>
+                            Since the majority of shooting incidents have less than 10 victims per incident, the total
+                            shootings were grouped into small and large victim counts. There also were many areas
+                            that had multiple occurences of mass shootings per county. The focus on the
+                            amount of occureneces were split into single incident and multi-incident categories for
+                            further
+                            investigation.
                         </p>
                     </div>
 
-                    <div class="col-md-auto">
-                        <img src="docs/MultiIncidentFatalityRateCounty.png" alt="Multi-incident Fatality Rate" class="im5" />
+                </div>
+            </div>
+
+            <div class="container.fluid mx-5 mt-5">
+                <div class="row ">
+
+                    <div class="col col-lg-3 col-6">
+                        <div class="card border-0">
+                            <div class="container.fluid">
+                                <img src="docs/SmallIncidents.png" alt="Single Incident Fatality Rate" class="imT" />
+                            </div>
+                        </div>
                     </div>
 
+                    <div class="col col-lg-7 col-12 offset-lg-2 offset-0 ">
+                        <div class="col align-items-start">
+                            <p class="mx-5">
+                                The counties where incidents are recurring have lower fatality rates for higher incident
+                                counts. There are some counties that have had more than 20 mass shootings, and two where
+                                there are
+                                more than 40. The majority recurrences are in areas that have had less than 10 incidents
+                                per
+                                county. For the single incident occurences, the areas with higher victim counts have
+                                less
+                                than a 40%
+                                fatality rate. The counties with the higher fatality rates tend to be rural or suburban.
+                            </p>
+                        </div>
+
+                        <div class="col mt-5 align-items-end">
+                            <div class="card border-0">
+                                <div class="container.fluid">
+                                    <img src="docs/MultiIncidentFatalityRateCounty.png"
+                                        alt="Multi-incident Fatality Rate" class="imxW" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+            <div class="container.fluid mx-5 mt-5">
+                <div class="row mr-5">
+                    <div class="col col-lg-6 col-12">
+                        <div class="card border-0">
+                            <div class="container">
+                                <img src="docs/PovertyRateVsFatalityRatePerCounty.png"
+                                    alt="Poverty Rate vs Fatality Rate" class="imW" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-lg-6 col-12 ">
+                        <div class="card border-0">
+                            <div class="container">
+                                <img src="docs/PovertyRateVsTotalVictimsPerCounty.png"
+                                    alt="Poverty Rate vs Total Victims" class="imW" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="w-100"></div>
-                <br>
+                <div class="row mr-5 align-items-end">
+                    <div class="col col-lg-6 col-12">
+                        <div class="card border-0">
+                            <div class="container">
+                                <img src="docs/FatalityRateVsDensityPerCounty.png" alt="Fatality Rate vs Density"
+                                    class="imW" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-lg-6 col-12">
+                        <div class="card border-0">
+                            <div class="container">
+                                <img src="docs/PovertyVsIncidentsRegressionLine.png" alt="Poverty Vs Shooting Incidents"
+                                    class="imW" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <br>
 
-                <div class="col col-12">
-                    <img src="docs/IncidentsVPovertyRatePerYear_Scatter.png" alt="Shooting Incidents vs Poverty Rate" class="hm" />
+                <div class="row mr-5">
+                    <div class="col col-12">
+                        <div class="card border-0">
+                            <div class="container">
+                                <img src="docs/IncidentsVPovertyRatePerYear_Scatter.png"
+                                    alt="Shooting Incidents vs Poverty Rate" class="imW" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="w-100"></div>
-                <br>
-                <br>
-
-                <div class="col col-lg-6 col-12">
-                    <img src="docs/PovertyRateVsFatalityRatePerCounty.png" alt="Poverty Rate vs Fatality Rate" class="hm" />
-                </div>
-                <div class="col col-lg-6 col-12">
-                    <img src="docs/PovertyRateVsTotalVictimsPerCounty.png" alt="Poverty Rate vs Total Victims" class="hm" />
-                </div>
-                <div class="w-100"></div>
-
-                <br>
-                <br>
-                <div class="col col-lg-6 col-12">
-                    <img src="docs/FatalityRateVsDensityPerCounty.png" alt="Fatality Rate vs Density" class="im4" />
-                </div>
-                <div class="col col-lg-6 col-12">
-                    <img src="docs/PovertyVsIncidentsRegressionLine.png" alt="Poverty Vs Shooting Incidents" class="hm" />
-                </div>
-                <div class="w-100"></div>
 
             </div>
         </div>
+
     </div>
 </body>
+
+</html>
