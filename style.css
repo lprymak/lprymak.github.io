@@ -1,6 +1,7 @@
 body {
     color: gray !important;
     line-height: 1.75rem;
+    margin-top: 5%;
 }
 .ms {
     color:  rgb(247, 92, 20);
