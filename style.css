@@ -55,7 +55,7 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
     background-color:  rgb(247, 92, 20) !important;
 }
 .navbar {
-    position: sticky;
+    position: fixed;
     padding: 0rem .5rem;
 }
 .main {
