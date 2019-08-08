@@ -1,3 +1,4 @@
+
 ## Mass Shooting Analysis Website
 
 Developed mass shooting analysis documents and visualizations into a website. It is formatted into multi-page site with a Home, Regional, Incidental, Hate Group, Gum Laws, and a Comparison page containing all visualizations.
